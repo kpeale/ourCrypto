@@ -2,6 +2,6 @@
 
 <template>
   <header>
-    <h1>h1</h1>
+    <h1 class="text-4xl text-red-500">how are you</h1>
   </header>
 </template>
