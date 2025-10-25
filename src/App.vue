@@ -1,7 +1,10 @@
-<script setup lang="ts"></script>
+<script setup lang="ts">
+import Nav from './components/Nav.vue';
+
+</script>
+
 
 <template>
-  <header>
-    <h1 class="text-4xl text-red-500">how are you</h1>
-  </header>
+ <Nav/>
+  
 </template>

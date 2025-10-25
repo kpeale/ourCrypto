@@ -1,1 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 @import "tailwindcss";
+
+@font-face {
+  font-family: 'Yukita Sans';
+  src: url('/src/assets/fonts/yukita/YukitaSans-Regular.otf') format('opentype');
+  font-weight: 400;
+}
+
+
+@font-face {
+  font-family: 'Yukita Sans';
+  src: url('/src/assets/fonts/yukita/YukitaSans-Bold.otf') format('opentype');
+  font-weight: 700;
+}
+
+
+@font-face {
+  font-family: 'Yukita Sans';
+  src: url('/src/assets/fonts/yukita/YukitaSans-Light.otf') format('opentype');
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: 'Yukita Sans';
+  src: url('/src/assets/fonts/yukita/YukitaSans-Medium.otf') format('opentype');
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: 'Yukita Sans';
+  src: url('/src/assets/fonts/yukita/YukitaSans-SemiBold.otf') format('opentype');
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: 'Yukita Sans';
+  src: url('/src/assets/fonts/yukita/YukitaSans-Black.otf') format('opentype');
+  font-weight: 900;
+}
+
+@font-face {
+  font-family: 'Yukita Sans';
+  src: url('/src/assets/fonts/yukita/YukitaSans-ExtraBold.otf') format('opentype');
+  font-weight: 800;
+}
+
+
+
+@theme  {
+ 
+  --font-yukita: "Yukita Sans", sans-seri;
+    --font-inter: "Inter", sans-serif;
+  --breakpoint-nwsm: 26.56rem;
+  --primary-100:#2752E7;
+  --primary-80:#5275EC;
+  --primary-60:#7D97F1;
+  --primary-40:#D0DBFF;
+  --primary-20:#F5F8FE;
+  --base-100:#2C3131;
+  --base-80:#626262;
+  --base-60:#A9A9A9;
+  --base-40:#CACACA;
+  --base-20:#E3E3E3;
+  --base-0:#FFFFFF;
+  --sucess-100:#53D258;
+  --success-80:#75DB79;
+  --success-60:#98E49B;
+  --success-40:#BAEDBC;
+  --success-20:#DDF6DE;
+  --error-100:#E25C5C;
+  --error-80:#E87D7D;
+  --error-60:#EE9D9D;
+  --error-40:#F3BEBE;
+  --error-20:#F9DEDE;
+}
