@@ -51,7 +51,16 @@
  
   --font-yukita: "Yukita Sans", sans-seri;
     --font-inter: "Inter", sans-serif;
-  --breakpoint-nwsm: 26.56rem;
+  --breakpoint-nwsm: 23.4375rem;
+  --breakpoint-esm:75rem;
+  --breakpoint-bg:96.25rem;
+  --breakpoint-xlg:100rem;
+  --breakpoint-fsm:106.25rem;
+  --breakpoint-tsm:118.75rem;
+  --breakpoint-lsm:130.3125rem;
+  --breakpoint-jsm:143.75rem;
+  --breakpoint-msm:155.625rem;
+ 
   --primary-100:#2752E7;
   --primary-80:#5275EC;
   --primary-60:#7D97F1;

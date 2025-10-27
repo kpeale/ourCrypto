@@ -53,9 +53,10 @@ onUnmounted(() => {
 </script>
 <template>
  
-  <header  class="w-full mx-auto fixed z-50 top-0">
+  <header  class="fixed top-0 w-full z-50 transition-all duration-300"
+        :class="isScrolled ? 'bg-white shadow-lg' : 'bg-transparent'">
     <nav ref="navref"
-      :class="['flex relative mt-0 lg:mt-6  flex-row items-center justify-between container px-6   mx-auto  transition-all duration-300', isScrolled ? 'bg-white shadow-lg' : 'bg-white' ]"
+      class="container mx-auto flex items-center justify-between py-4 lg:py-6 px-6"
     >
       <div class="mt-4 lg:mt-0">
         <router-link to="/">
